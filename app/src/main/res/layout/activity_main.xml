@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:text="My Nanodegree Apps!!"
+            android:layout_margin="25dp"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:id="@+id/app1"
+            android:background="@drawable/button_selector"
+            android:layout_margin="10dp"
+            android:text="@string/app1"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:id="@+id/app2"
+            android:background="@drawable/button_selector"
+            android:layout_margin="10dp"
+            android:text="@string/app2"
+            android:textAlignment="center"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:id="@+id/app3"
+            android:background="@drawable/button_selector"
+            android:layout_margin="10dp"
+            android:text="@string/app3"
+            android:textAlignment="center"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:id="@+id/app4"
+            android:background="@drawable/button_selector"
+            android:layout_margin="10dp"
+            android:text="@string/app4"
+            android:textAlignment="center"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:id="@+id/app5"
+            android:background="@drawable/button_selector"
+            android:layout_margin="10dp"
+            android:text="@string/app5"
+            android:textAlignment="center"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:id="@+id/app6"
+            android:background="@drawable/button_selector"
+            android:layout_margin="10dp"
+            android:text="@string/app6"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+</ScrollView>
