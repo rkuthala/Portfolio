@@ -2,10 +2,12 @@
     <string name="app_name">Portfolio</string>
     <string name="title_activity_main">My App Portfolio</string>
 
-    <string name="app1">SPOTIFY STREAMER</string>
-    <string name="app2">SCORES APP</string>
-    <string name="app3">LIBRARY APP</string>
-    <string name="app4">BUILD IT BUIGGER</string>
-    <string name="app5">XYZ READER</string>
-    <string name="app6">CAPSTONE: MY OWN APP</string>
+    <string name="launcherActivityHeading">My Nanodegree Apps!</string>
+
+    <string name="spotifyAppTitle">SPOTIFY STREAMER</string>
+    <string name="scoresAppTitle">SCORES APP</string>
+    <string name="libraryAppTitle">LIBRARY APP</string>
+    <string name="biggerAppTitle">BUILD IT BIGGER</string>
+    <string name="xyzReaderAppTitle">XYZ READER</string>
+    <string name="capstoneAppTitle">CAPSTONE: MY OWN APP</string>
 </resources>

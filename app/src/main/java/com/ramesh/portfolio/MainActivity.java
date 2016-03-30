@@ -13,19 +13,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button app1 = (Button)findViewById(R.id.app1);
-        Button app2 = (Button)findViewById(R.id.app2);
-        Button app3 = (Button)findViewById(R.id.app3);
-        Button app4 = (Button)findViewById(R.id.app4);
-        Button app5 = (Button)findViewById(R.id.app5);
-        Button app6 = (Button)findViewById(R.id.app6);
+        Button spotifyAppButton = (Button)findViewById(R.id.spotifyAppButton);
+        Button scoresAppButton = (Button)findViewById(R.id.scoresAppButton);
+        Button libraryAppButton = (Button)findViewById(R.id.libraryAppButton);
+        Button biggerAppButton = (Button)findViewById(R.id.biggerAppButton);
+        Button xyzReaderAppButton = (Button)findViewById(R.id.xyzReaderAppButton);
+        Button capstoneAppButton = (Button)findViewById(R.id.capstoneAppButton);
 
-        app1.setOnClickListener(this);
-        app2.setOnClickListener(this);
-        app3.setOnClickListener(this);
-        app4.setOnClickListener(this);
-        app5.setOnClickListener(this);
-        app6.setOnClickListener(this);
+        spotifyAppButton.setOnClickListener(this);
+        scoresAppButton.setOnClickListener(this);
+        libraryAppButton.setOnClickListener(this);
+        biggerAppButton.setOnClickListener(this);
+        xyzReaderAppButton.setOnClickListener(this);
+        capstoneAppButton.setOnClickListener(this);
 
     }
 
@@ -34,22 +34,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String toastMessage = "";
 
         switch (v.getId()) {
-            case R.id.app1:
+            case R.id.spotifyAppButton:
                 toastMessage = "This button will launch Spotify Steamer";
                 break;
-            case R.id.app2:
+            case R.id.scoresAppButton:
                 toastMessage = "This button will launch Scores app";
                 break;
-            case R.id.app3:
+            case R.id.libraryAppButton:
                 toastMessage = "This button will launch Library app";
                 break;
-            case R.id.app4:
+            case R.id.biggerAppButton:
                 toastMessage = "This button will launch Bigger app";
                 break;
-            case R.id.app5:
+            case R.id.xyzReaderAppButton:
                 toastMessage = "This button will launch XZY reader";
                 break;
-            case R.id.app6:
+            case R.id.capstoneAppButton:
                 toastMessage = "This button will launch my Capstone app";
                 break;
         }

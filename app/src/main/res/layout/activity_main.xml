@@ -14,69 +14,45 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/title"
-            android:text="My Nanodegree Apps!!"
+            android:text="@string/launcherActivityHeading"
             android:layout_margin="25dp"
             />
 
         <Button
-            android:layout_width="300dp"
-            android:layout_height="60dp"
-            android:id="@+id/app1"
-            android:background="@drawable/button_selector"
-            android:layout_margin="10dp"
-            android:text="@string/app1"
-            android:textAlignment="center"
+            style="@style/CustomButton"
+            android:id="@+id/spotifyAppButton"
+            android:text="@string/spotifyAppTitle"
             android:layout_marginTop="15dp"
             />
 
         <Button
-            android:layout_width="300dp"
-            android:layout_height="60dp"
-            android:id="@+id/app2"
-            android:background="@drawable/button_selector"
-            android:layout_margin="10dp"
-            android:text="@string/app2"
-            android:textAlignment="center"
+            style="@style/CustomButton"
+            android:id="@+id/scoresAppButton"
+            android:text="@string/scoresAppTitle"
             />
 
         <Button
-            android:layout_width="300dp"
-            android:layout_height="60dp"
-            android:id="@+id/app3"
-            android:background="@drawable/button_selector"
-            android:layout_margin="10dp"
-            android:text="@string/app3"
-            android:textAlignment="center"
+            style="@style/CustomButton"
+            android:id="@+id/libraryAppButton"
+            android:text="@string/libraryAppTitle"
             />
 
         <Button
-            android:layout_width="300dp"
-            android:layout_height="60dp"
-            android:id="@+id/app4"
-            android:background="@drawable/button_selector"
-            android:layout_margin="10dp"
-            android:text="@string/app4"
-            android:textAlignment="center"
+            style="@style/CustomButton"
+            android:id="@+id/biggerAppButton"
+            android:text="@string/biggerAppTitle"
             />
 
         <Button
-            android:layout_width="300dp"
-            android:layout_height="60dp"
-            android:id="@+id/app5"
-            android:background="@drawable/button_selector"
-            android:layout_margin="10dp"
-            android:text="@string/app5"
-            android:textAlignment="center"
+            style="@style/CustomButton"
+            android:id="@+id/xyzReaderAppButton"
+            android:text="@string/xyzReaderAppTitle"
             />
 
         <Button
-            android:layout_width="300dp"
-            android:layout_height="60dp"
-            android:id="@+id/app6"
-            android:background="@drawable/button_selector"
-            android:layout_margin="10dp"
-            android:text="@string/app6"
-            android:textAlignment="center"
+            style="@style/CustomButton"
+            android:id="@+id/capstoneAppButton"
+            android:text="@string/capstoneAppTitle"
             />
 
     </LinearLayout>
